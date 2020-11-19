@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+David Airam
+Analyst Developer
+Living in Tenerife
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am an enthusiast of technology and communications.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[davidairam@gmail.com](mailto:davidairam@gmail.com)

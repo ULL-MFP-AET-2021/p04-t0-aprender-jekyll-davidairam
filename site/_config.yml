@@ -1,7 +1,7 @@
 #
 # This file contains configuration flags to customize your site
 #
-
+#
 # Name of your site (displayed in the header)
 name: David Airam Hdez. Rguez.
 
@@ -11,10 +11,13 @@ description: Analyst Developer
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/ULL-MFP-AET-2021/p02-t0-aprender-markdown-davidairam/master/owl_logo.jpg?token=ABGUD436L7Y4XDLGSFKO4CC7XVEXS
 
+collections:
+  - tareas
+  - temas
+
 #
 # Flags below are optional
 #
-
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
