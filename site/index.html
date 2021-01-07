@@ -16,3 +16,17 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+<div style="border-style: solid; border-radius: 25px;">
+<ol>
+{%- for col in site.collections %}
+<li> Colección: {{ col.label }} </li>
+  <ol>
+  {%-  assign firstdocs = col.docs | slice: 0,3 %}
+  {%- for elem in firstdocs %}
+    <li> <b>path:</b> {{ elem.path }} <b>url:</b> {{ elem.url }} </li>
+  {%- endfor %}
+  </ol>
+{%- endfor %}
+</ol>
+</div>
