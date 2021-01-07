@@ -1,7 +1,7 @@
 ---
 name: La electrónica
 visible: true
-my_order: 2
+my_order: 3
 ---
 
 # {{ page.name }}

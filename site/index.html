@@ -17,16 +17,17 @@ layout: default
   {% endfor %}
 </div>
 
-<div style="border-style: solid; border-radius: 25px;">
-<ol>
-{%- for col in site.collections %}
-<li> Colección: {{ col.label }} </li>
-  <ol>
-  {%-  assign firstdocs = col.docs | slice: 0,3 %}
-  {%- for elem in firstdocs %}
-    <li> <b>path:</b> {{ elem.path }} <b>url:</b> {{ elem.url }} </li>
-  {%- endfor %}
-  </ol>
+<br>
+<h1>TAREAS PRÁCTICAS</h1>
+{%- for practica in site.tareas %}
+  {%- if practica.visible %}
+{{ practica.name | slice: 0, 2  }}.  <a href="{{ practica.url }}">Práctica {{ practica.name }}</a>
+  {%- endif %}
 {%- endfor %}
-</ol>
-</div>
+<br>
+<br>
+<h1>CONTENT</h1>
+{% for task in site.tareas %}
+  <h2>{{ task.name }} - {{ task.date }}</h2>
+  <p>{{ task.content | markdownify }}</p>
+{% endfor %}

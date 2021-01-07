@@ -14,8 +14,10 @@ avatar: https://i.ibb.co/7r13nJZ/CREATOR-gd-jpeg-v1-0-using-IJG-JPEG-v62-quality
 collections:
   tareas:
     output: true
+    sort_by: my_order
   temas:
     output: true
+    sort_by: my_order
 #
 # Flags below are optional
 #
