@@ -13,7 +13,9 @@ avatar: https://raw.githubusercontent.com/ULL-MFP-AET-2021/p02-t0-aprender-markd
 
 collections:
   - tareas
+#    output: true
   - temas
+ #   output: true
 
 #
 # Flags below are optional
