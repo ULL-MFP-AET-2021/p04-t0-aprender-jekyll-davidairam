@@ -15,7 +15,7 @@ collections:
   - tareas
 #    output: true
   - temas
- #   output: true
+#   output: true
 
 #
 # Flags below are optional
