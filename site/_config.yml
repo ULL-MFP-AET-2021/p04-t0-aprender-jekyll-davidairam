@@ -12,11 +12,15 @@ description: Analyst Developer
 avatar: https://raw.githubusercontent.com/ULL-MFP-AET-2021/p02-t0-aprender-markdown-davidairam/master/owl_logo.jpg?token=ABGUD436L7Y4XDLGSFKO4CC7XVEXS
 
 collections:
-  - tareas
+  - tarea
 #    output: true
   - temas
 #   output: true
 
+ #   output: true
+    output: true
+  - temas
+    output: true
 #
 # Flags below are optional
 #
