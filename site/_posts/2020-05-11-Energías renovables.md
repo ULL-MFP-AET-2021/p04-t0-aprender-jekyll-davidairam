@@ -3,7 +3,7 @@ layout: post
 title: Energías renovables
 profesor: David Airam
 link_github: https://github.com/davidairam
-online: true
+online: www.linkclaseonline23.com
 ---
 
 
