@@ -1,7 +1,7 @@
 ---
-name: La electrónica
+name: Electrónica Básica
 visible: true
-my_order: 3
+my_order: 2
 ---
 
 # {{ page.name }}

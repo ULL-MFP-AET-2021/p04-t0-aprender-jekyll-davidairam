@@ -1,7 +1,7 @@
 ---
 name: Las telecomunicaciones
-visible: true
-my_order: 2
+visible: false
+my_order: 8
 ---
 
 # {{ page.name }}

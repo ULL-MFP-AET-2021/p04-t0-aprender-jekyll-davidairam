@@ -168,6 +168,11 @@ img {
   color: #666;
 }
 
+.limitdate {
+  font-size: 13px;
+  color: #4183C4;
+}
+
 ::-moz-selection {
   color: #000;
   background: #eee;

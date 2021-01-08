@@ -1,7 +1,7 @@
 ---
 name: Energías renovables
 visible: true
-my_order: 4
+my_order: 9
 ---
 
 # {{ page.name }}
