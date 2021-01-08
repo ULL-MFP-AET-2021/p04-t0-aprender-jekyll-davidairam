@@ -3,6 +3,7 @@ layout: post
 title: La electrónica
 profesor: David Airam
 link_github: https://github.com/davidairam
+online: true
 ---
 
 La electrónica nace en muchos sitios a la vez pero se puede decir que ocurre en 1906 con el nacimiento del Triodo puesto que por primera vez éramos capaces de controlar un flujo de electrones con otro flujo de electrones

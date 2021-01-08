@@ -3,6 +3,7 @@ layout: post
 title: Primera clase de Tecnología
 profesor: David Airam
 link_github: https://github.com/davidairam
+online: false
 ---
 
 Hola a todos, mi nombre es {{ page.profesor }} y seré su profesor de Tecnología.

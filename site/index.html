@@ -6,13 +6,19 @@ layout: default
   {% for clase in site.posts %}
     <article class="post">
 
-      <h2><a href="{{ site.baseurl }}{{ clase.url }}">{{ clase.title }}</a></h1>
-      
-      <div class="entry">
-        {{ clase.excerpt | slice:0, 90 }} ...
+      <h2><a href="{{ site.baseurl }}{{ clase.url }}">{{ clase.title }}</a></h2>
+
+      <div class="clase_dateformat">
+        Clase del {{ clase.date | date: "%e de %B del %Y" }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ clase.url }}" class="read-more">Seguir leyendo</a>
+
+
+      <div class="entry">
+        {{ clase.excerpt | slice:0, 120 }} ...
+      </div>
+
+      <a href="{{ site.baseurl }}{{ clase.url }}" class="read-more">Ver clase completa</a>
     </article>
   {% endfor %}
 </div>

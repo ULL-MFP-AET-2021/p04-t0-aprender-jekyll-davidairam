@@ -21,7 +21,7 @@ Residiendo actualmente en {{ site.data.common.location }}
 
 {{ site.data.common.tutorias }}
 
-### More Information
+### Otra información de interés
 
 {{ site.data.common.cita_fav}}
 
