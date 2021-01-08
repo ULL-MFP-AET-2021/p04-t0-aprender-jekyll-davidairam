@@ -1,0 +1,29 @@
+I"�<p>David Airam Hernández Rodríguez</p>
+
+<p>Profesor de Tecnología
+Profesor de Tecnología</p>
+
+<p>Living in La Laguna, Tenerife</p>
+
+<h3 id="more-information">More Information</h3>
+
+<p>I am an enthusiast of technology and communications.</p>
+
+<h3 id="contact-me">Contact me</h3>
+
+<p><a href="mailto:davidairam@gmail.com">davidairam@gmail.com</a></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"name": "David Airam",
+"surname": "Hernández Rodríguez",
+"titulo": "Ing. Telecomunicaciones",
+"location": "La Laguna, Tenerife",
+"experiencia": 12,
+"link_github": "https://github.com/davidairam",
+"email": "davidairam@gmail.com",
+"cursos_recibidos": [ "ITC", "Programación Avanzada en C++", "Evolutionary Computing", "Redes neuronales"],
+"profesor": true,
+"cita_fav": "I am an enthusiast of technology and communications.",
+"telf": "600 123 000",
+"tutorias": "L-V 11.30-12.45h"
+</code></pre></div></div>
+:ET

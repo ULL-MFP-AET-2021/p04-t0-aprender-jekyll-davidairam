@@ -1,17 +1,34 @@
 ---
 layout: page
-title: About
+title:
 permalink: /about/
 ---
 
-David Airam
-Analyst Developer
-Living in Tenerife
+## {{ site.data.common.name }} {{ site.data.common.surname }}
+
+### Estudios
+
+{{ site.data.common.titulo }}
+
+### Cargo
+
+{{ site.description }}
+
+### Ubicación
+
+Residiendo actualmente en {{ site.data.common.location }}
+### Horario de tutorías
+
+{{ site.data.common.tutorias }}
 
 ### More Information
 
-I am an enthusiast of technology and communications.
+{{ site.data.common.cita_fav}}
 
-### Contact me
+### Contacto
 
-[davidairam@gmail.com](mailto:davidairam@gmail.com)
+[{{ site.data.common.email }}](mailto:{{ site.data.common.email }})
+
+Telf. Urgencias: {{ site.data.common.telf }}
+
+GitHub: {{ site.data.common.link_github }}

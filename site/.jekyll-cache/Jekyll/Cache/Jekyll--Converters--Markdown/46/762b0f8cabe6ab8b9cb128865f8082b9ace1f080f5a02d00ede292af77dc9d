@@ -1,0 +1,43 @@
+I"~<h1>TAREAS PRÁCTICAS</h1>
+<p>Tarea-Introduccion.  <a href="/tareas/2021-04-20-Tarea_Introduccion/">Práctica Tarea-Introduccion</a>Tarea-Cap1.  <a href="/tareas/2021-04-27-Tarea_Cap1/">Práctica Tarea-Cap1</a>Tarea-Cap2.  <a href="/tareas/2021-05-04-Tarea%20Cap2/">Práctica Tarea-Cap2</a></p>
+
+<p><br />
+<br /></p>
+<h1>CONTENT</h1>
+
+<h2>Tarea-Introduccion - April 20, 2021</h2>
+<p><h1 id="tarea-introduccion">Tarea-Introduccion</h1>
+
+<p>You can insert some formula \(f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi\) in the middle of a sentence.</p>
+
+<p>You can also put large formulas in their own paragraph:</p>
+
+<p><br /><br />
+\(f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi\)
+<br />
+\(mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}\)</p>
+
+<p><br /><br />
+Blah, blah, blah … description of the task the student must do</p>
+</p>
+
+<h2>Tarea-Cap1 - April 27, 2021</h2>
+<p><h1 id="tarea-cap1">Tarea-Cap1</h1>
+
+<p>Blah, blah, blah … description of the task the student must do</p>
+</p>
+
+<h2>Tarea-Cap2 - May  4, 2021</h2>
+<p><h1 id="tarea-cap2">Tarea-Cap2</h1>
+
+<p>Blah, blah, blah … description of the task the student must do</p>
+</p>
+
+<h3 id="more-information">More Information</h3>
+
+<p>I am an enthusiast of technology and communications.</p>
+
+<h3 id="contact-me">Contact me</h3>
+
+<p><a href="mailto:davidairam@gmail.com">davidairam@gmail.com</a></p>
+:ET

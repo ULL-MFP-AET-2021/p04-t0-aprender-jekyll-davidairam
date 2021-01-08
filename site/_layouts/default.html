@@ -27,8 +27,10 @@
           </div>
 
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/">Clases</a>
+            <a href="{{ site.baseurl }}/temario">Temario</a>
+            <a href="{{ site.baseurl }}/practs">Prácticas</a>
+            <a href="{{ site.baseurl }}/about">Contacto</a>
           </nav>
         </header>
       </div>
@@ -47,5 +49,21 @@
     </div>
 
     {% include analytics.html %}
+    <!-- Mathjax Support  -->
+    <!-- MathJax version 3 -->
+    <script type="text/javascript">
+      window.MathJax = {
+      tex: {
+          packages: ['base', 'ams']
+      },
+      loader: {
+          load: ['ui/menu', '[tex]/ams']
+      }
+      };
+      </script>
+
+      <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
   </body>
 </html>
