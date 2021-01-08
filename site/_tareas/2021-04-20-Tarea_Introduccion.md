@@ -1,4 +1,5 @@
 ---
+layout: tarea
 name: Tarea de introducción a la Tecnología
 visible: true
 date: 2021-04-20

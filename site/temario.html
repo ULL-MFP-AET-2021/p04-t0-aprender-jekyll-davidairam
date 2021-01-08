@@ -10,7 +10,7 @@ permalink: /temario/
     <article class="post">
 
       {% if tema.visible %}
-       <h5><a href={{ site.baseurl }}{{ tema.url }}>{{ tema.my_order }}. {{ tema.name }}</a></h5>
+       <h5><a href={{ site.baseurl }}{{ tema.url }}>{{ tema.number }}. {{ tema.name }}</a></h5>
       {% else %}
        <h4><del> {{ tema.my_order }}. {{ tema.name }}</del></h4>
       {% endif %}

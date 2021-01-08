@@ -1,10 +1,12 @@
 ---
+layout: tema
 name: Diodos y LEDs
 visible: true
 my_order: 3
+number: 2.1
 ---
 
-# {{ page.name }}
+## {{ page.number }}. {{ page.name }}
 
 En este tema vamos a tratar blabalalbalballbala.
 
