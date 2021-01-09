@@ -2,8 +2,8 @@
 layout: tarea
 name: Tarea de introducción a la Tecnología
 visible: true
-date: 2021-04-20
-limit_date: 2021-04-27
+date: 2020-04-20
+limit_date: 2020-04-27
 my_order: 1
 ---
 
@@ -11,7 +11,6 @@ my_order: 1
 
 You can insert some formula $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$ in the middle of a sentence.
 
-<<<<<<< HEAD
 You can also put large formulas in their own paragraph:
 
 <br><br>
