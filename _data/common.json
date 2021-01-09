@@ -12,6 +12,6 @@
     "cursos_recibidos": [ "ITC", "Programación Avanzada en C++", "Evolutionary Computing", "Redes neuronales"],
     "profesor": true,
     "cita_fav": "I am an enthusiast of technology and communications.",
-    "telf": "600 123 000 **(Sólo para urgencias)**",
+    "telf": "600 123 000",
     "tutorias": "L-V: **11.30-12.45h**<br>S: Sólo vía e-mail hasta las 12pm"
 }
