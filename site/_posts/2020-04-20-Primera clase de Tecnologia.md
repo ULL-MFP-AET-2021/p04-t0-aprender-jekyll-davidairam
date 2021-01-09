@@ -12,7 +12,7 @@ A lo largo de este curso de Tecnología vamos a estudiar los siguientes temas:
 {% for tema in site.temas %}
   {%- if tema.visible -%}
     - {{ tema.name }}
-  {%- endif %}
+  {% endif %}
 {% endfor %}
 
 <br>
