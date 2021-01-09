@@ -9,7 +9,23 @@ layout: default
       <h2><a href="{{ site.baseurl }}{{ clase.url }}">{{ clase.title }} {% if clase.online %} (ONLINE) {% endif %} </a></h2>
 
       <div class="clase_dateformat">
-        Clase del {{ clase.date | date: "%e de %B del %Y" }}
+        Clase del {{ clase.date | date: "%e de " }}
+        {% assign m = clase.date | date: "%-m" %}
+        {% case m %}
+          {% when '1' %}enero
+          {% when '2' %}febrero
+          {% when '3' %}marzo
+          {% when '4' %}abril
+          {% when '5' %}mayo
+          {% when '6' %}junio
+          {% when '7' %}julio
+          {% when '8' %}agosto
+          {% when '9' %}septiembre
+          {% when '10' %}octubre
+          {% when '11' %}noviembre
+          {% when '12' %}diciembre
+        {% endcase %}
+        {{ clase.date | date: " del %Y"}}
       </div>
 
       <div class="entry">
