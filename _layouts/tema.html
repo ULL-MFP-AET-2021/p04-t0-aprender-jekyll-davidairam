@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<form>
+  <input type="button" value="VOLVER" onclick="history.back()">
+</form>
+<!--<button class="buttonback" onclick="history.back()">VOLVER</button>-->
+
+<h1>
+  Temario de
+  {{site.data.common.asignatura}} 
+</h1>
+<hr>
+<article class="post">
+  <div class="entry">
+    {{ content }}
+  </div>
+  <form>
+    <input type="button" value="VOLVER" onclick="history.back()">
+  </form>
+ {% include disqus.html %}
+</article>

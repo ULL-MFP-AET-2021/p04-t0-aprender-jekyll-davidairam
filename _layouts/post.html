@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<form>
+  <input type="button" value="VOLVER" onclick="history.back()">
+</form>
+<!--<button class="buttonback" onclick="history.back()">VOLVER</button>-->
+
+<article class="post">
+  <h2>{{ page.title }}</h2>
+    <div class="clase_dateformat">
+      Clase del {{ page.date | date: "%e de " }}
+      {% assign m = page.date | date: "%-m" %}
+      {% case m %}
+        {% when '1' %}enero
+        {% when '2' %}febrero
+        {% when '3' %}marzo
+        {% when '4' %}abril
+        {% when '5' %}mayo
+        {% when '6' %}junio
+        {% when '7' %}julio
+        {% when '8' %}agosto
+        {% when '9' %}septiembre
+        {% when '10' %}octubre
+        {% when '11' %}noviembre
+        {% when '12' %}diciembre
+      {% endcase %}
+      {{ page.date | date: " del %Y"}}
+     </div>
+  {% if page.online %} 
+    <h3>Clase online: <a href="{{ page.online }}" target="_blank" rel="noopener noreferrer"> LINK</a></h3> 
+  {% endif %}
+
+  <div class="entry">
+    {{ content }}
+  </div>
+  <form>
+    <input type="button" value="VOLVER" onclick="history.back()">
+  </form>
+  <br>
+  <div class="date">
+    Escrito el {{ page.date | date: "%e de %B del %Y" }}
+  </div>
+
+ {% include disqus.html %}
+</article>

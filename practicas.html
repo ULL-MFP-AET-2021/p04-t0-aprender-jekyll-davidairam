@@ -1,0 +1,27 @@
+---
+layout: page
+title: Prácticas
+permalink: /tareas/
+---
+
+<h3> {{ site.data.common.asignatura }} - {{ site.data.common.anio_asignatura }}</h3>
+<hr>
+<div class="tareas">
+  {% for tarea in site.tareas %}
+    <article class="post">
+
+      {% if tarea.visible %}
+       <h5> <a href={{ site.baseurl }}{{ tarea.url }}>{{ tarea.my_order }}. {{ tarea.name }}</a></h5>
+       <p class="limitdate">Fecha límite: <b>{{tarea.limit_date | date: "%e de %B del %Y" }}</b></small></p>
+      {% endif %}
+      <hr>
+    </article>
+  {% endfor %}
+</div>
+<h3>Profesor:</h3> {{site.data.common.name}} {{site.data.common.surname}}
+<br><br>
+<form>
+  <input type="button" value="CONTACTO" onclick="location.href='{{ site.baseurl }}/about'">
+  
+  <input type="button" value="VOLVER" onclick="history.back()">  
+</form>

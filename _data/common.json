@@ -1,0 +1,17 @@
+{
+    "name": "David Airam",
+    "surname": "Hernández Rodríguez",
+    "titulo": "Ing. Telecomunicaciones",
+    "location": "La Laguna, Tenerife",
+    "asignatura": "Tecnología 3º de ESO",
+    "anio_asignatura": "2020",
+    "experiencia": 12,
+    "clasesPostLimits": 200,
+    "link_github": "https://github.com/davidairam",
+    "email": "davidairam@gmail.com",
+    "cursos_recibidos": [ "ITC", "Programación Avanzada en C++", "Evolutionary Computing", "Redes neuronales"],
+    "profesor": true,
+    "cita_fav": "I am an enthusiast of technology and communications.",
+    "telf": "600 123 000",
+    "tutorias": "L-V: 11.30-12.45h (sábados vía e-mail hasta las 12pm)"
+}
