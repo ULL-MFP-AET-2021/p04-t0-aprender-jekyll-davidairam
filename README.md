@@ -8,4 +8,4 @@ Página web en github pages realizada con repl.it como IDE usando:jekyll, liquid
 
 [Enlace a mi repl.it](https://repl.it/@DavidAiramAiram)
 
-**OJO: En la rama master de este repo tenemos el repl.it de la práctica**
+**OJO: En la rama master de este repo tenemos el repl.it de la práctica y en la main el site.**
