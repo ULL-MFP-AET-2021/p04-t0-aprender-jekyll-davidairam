@@ -38,6 +38,6 @@ Residiendo actualmente en {{ site.data.common.location }}
 
 E-mail: [{{ site.data.common.email }}](mailto:{{ site.data.common.email }})
 
-Telf. Urgencias: [{{ site.data.common.telf }}](tel:{{ site.data.common.telf }})
+Telf.: [{{ site.data.common.telf }}](tel:{{ site.data.common.telf }}) (sólo para urgencias)
 
 GitHub: [{{ site.data.common.link_github }}]({{ site.data.common.link_github}})
