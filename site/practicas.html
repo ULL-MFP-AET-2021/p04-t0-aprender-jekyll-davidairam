@@ -12,14 +12,12 @@ permalink: /tareas/
 
       {% if tarea.visible %}
        <h5> <a href={{ site.baseurl }}{{ tarea.url }}>{{ tarea.my_order }}. {{ tarea.name }}</a></h5>
-
        <p class="limitdate">Fecha límite: <b>{{tarea.limit_date | date: "%e de %B del %Y" }}</b></small></p>
       {% endif %}
-     
+      <hr>
     </article>
   {% endfor %}
 </div>
-<hr>
 <h3>Profesor:</h3> {{site.data.common.name}} {{site.data.common.surname}}
 <br><br>
 <form>

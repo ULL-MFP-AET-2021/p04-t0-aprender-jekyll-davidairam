@@ -29,7 +29,7 @@ layout: default
       </div>
 
       <div class="entry">
-        {{ clase.excerpt | slice:0, 120 }} ...
+        {{ clase.excerpt | slice:0, site.data.common.clasesPostLimits}}...
       </div>
 
       <a href="{{ site.baseurl }}{{ clase.url }}" class="read-more">Ver clase completa</a>
