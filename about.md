@@ -1,10 +1,10 @@
 ---
 layout: page
-title:
+title: Contacto
 permalink: /about/
 ---
 
-## {{ site.data.common.name }} {{ site.data.common.surname }}
+## {{site.data.common.name}} {{site.data.common.surname}}
 
 - - -
 
