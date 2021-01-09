@@ -1,0 +1,41 @@
+I"�<p>Hola a todos, mi nombre es David Airam y seré su profesor de Tecnología.</p>
+
+<!--[<img src="/images/tecnologia.jpg"/>](/)-->
+<p><img src="/images/tecnologia.jpg" alt="image teleco" /></p>
+
+<p>A lo largo de este curso de Tecnología vamos a estudiar los siguientes temas:</p>
+
+<ul>
+  <li>
+    <p>Inicio de la Tecnología</p>
+  </li>
+  <li>
+    <p>Electrónica Básica</p>
+  </li>
+  <li>
+    <p>Diodos y LEDs</p>
+  </li>
+  <li>
+    <p>Arduino</p>
+  </li>
+  <li>
+    <p>Sensores digitales y analógicos</p>
+  </li>
+  <li>
+    <p>Energías renovables</p>
+  </li>
+</ul>
+
+<p><br /></p>
+<h0>
+
+Bla bla bla more content.
+
+El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba el saxofón detrás del palenque de paja.
+<br /><br />
+No se olviden visitar
+<a href="https://github.com/davidairam">mi página</a> de GitHub y mencionen en la siguiente clase un proyecto interesante que les haya gustado.
+<br /><br />
+--FIN--
+</h0>
+:ET
