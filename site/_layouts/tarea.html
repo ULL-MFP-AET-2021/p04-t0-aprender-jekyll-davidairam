@@ -12,10 +12,39 @@ layout: default
 </h1>
 <hr>
 <article class="post">
+  {% capture hoy %}
+  {{- "now" | date: "%Y%m%d" -}}
+  {% endcapture %}
+  {% capture limitdate %}
+  {{- page.limit_date | date: "%Y%m%d" -}}
+  {% endcapture %}
+  {% if hoy >= limitdate %}
+    <p class="limitdateRed">
+  {% else %}
+    <p class="limitdateBlue">
+  {% endif %}
+
+    Fecha límite de entrega: <b>{{- page.limit_date | date: "%d-%m-%Y" -}}</b>
+    <br>
+    Hoy es día <b>{{ "now" | date: "%d del mes %m del año %Y" }}</b>
+    <br><br>
+   
+    {% if hoy >= limitdate %}
+      <b>Se te ha pasado la fecha de entrega :(<br>Pero más vale tarde que nunca:</b>
+    {% else %}
+      ¡Aún tienes tiempo! Aprovecha y sube la práctica :)
+    {% endif %}
+  </p>
+
+    <form>
+      <input type="button" value="  SUBIR PRÁCTICA  " onclick="">
+    </form>
+   
   <div class="entry">
-    {{ content }}
+    {{- content }}
   </div>
   <form>
+    <input type="button" value="  SUBIR PRÁCTICA  " onclick="">
     <input type="button" value="VOLVER" onclick="history.back()">
   </form>
  {% include disqus.html %}

@@ -173,6 +173,18 @@ img {
   color: #4183C4;
 }
 
+.limitdateRed {
+  font-size: 15px;
+  font-style: bold;
+  color: #ff0000;
+}
+
+.limitdateBlue {
+  font-size: 15px;
+  font-style: bold;
+  color: #0000ff;
+}
+
 ::-moz-selection {
   color: #000;
   background: #eee;
